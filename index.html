@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DELTA 9 UK</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    if (!localStorage.getItem('ageConfirmed')) {
+      if (!confirm("You must be 18+ to enter this site. Are you over 18?")) {
+        window.location.href = "https://google.com";
+      } else {
+        localStorage.setItem('ageConfirmed', true);
+      }
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>DELTA 9 UK</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="contact.html">Contact</a>
+      <a href="terms.html">Terms</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="refund.html">Refund</a>
+    </nav>
+  </header>
+  <div class="container">
+    <h2>Our Products</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <h3>Packman Gen3</h3>
+        <p>THC-Filled · 2ml · £50</p>
+        <a href="products/packman-gen3.html">View Product</a>
+      </div>
+      <div class="product-card">
+        <h3>Buzz Bar</h3>
+        <p>Coming Soon</p>
+        <a href="products/buzz-bar.html">View Product</a>
+      </div>
+      <div class="product-card">
+        <h3>Packwoods</h3>
+        <p>Coming Soon</p>
+        <a href="products/packwoods.html">View Product</a>
+      </div>
+      <div class="product-card">
+        <h3>California</h3>
+        <p>Coming Soon</p>
+        <a href="products/california.html">View Product</a>
+      </div>
+      <div class="product-card">
+        <h3>Mike Tyson</h3>
+        <p>Coming Soon</p>
+        <a href="products/mike-tyson.html">View Product</a>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>Contact us on Telegram: @ace62kg</p>
+  </footer>
+</body>
+</html>
